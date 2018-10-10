@@ -1,0 +1,290 @@
+TABLE.wizardStepInfo
+{
+	BACKGROUND-COLOR    : #FFFFFF;
+}
+
+TABLE.wizardStepInfo TD
+{
+	COLOR               : #000;
+	font-size: 11px;
+}
+
+
+TABLE.wizardStepInfo TR.header TD
+{
+	PADDING             : 0px;
+	PADDING-RIGHT       : 10px;
+	COLOR               : #FFF;
+/*	FONT-SIZE           : 14px;*/
+	FONT-WEIGHT         : bold;
+	WHITE-SPACE         : nowrap;
+	BACKGROUND-COLOR    : #FFFFFF;
+}
+
+TABLE.wizardStepInfo TR.header TD IMG
+{
+	MARGIN              : 0 18px;
+}
+
+TABLE.wizardStepInfo TR.title TD
+{
+	COLOR               : #FFF;
+	TEXT-ALIGN          : center;
+	BACKGROUND-COLOR    : #EAEEBA;
+}
+
+TABLE.wizardStepInfo TD.complite A
+{
+	COLOR: white;
+	/*BACKGROUND-COLOR    : #76B12E;*/
+}
+
+TABLE.wizardStepInfo TD.current
+{
+	/*BACKGROUND-COLOR    : #0184D0;*/
+}
+
+
+TABLE.wizardStepInfo TD.notpass
+{
+	/*BACKGROUND-COLOR    : #CCC;*/
+}
+
+TABLE.wizardStepInfo TR.notpass TD.bullet
+{
+	BACKGROUND-IMAGE    : url('/img/wizard_bullet_notpass.gif');
+}
+
+TABLE.wizardStepInfo TD.bullet
+{
+	BACKGROUND-IMAGE    : url('/img/wizard_bullet_complite.gif');
+	BACKGROUND-POSITION : center;
+	BACKGROUND-REPEAT   : no-repeat;
+}
+
+TABLE.step-complite 
+{
+	width: 100%;
+	height: 100%;
+	background-image: url('/img/wizard/gre_vl.gif');
+	background-position: right;
+	background-repeat: repeat-y;
+}
+
+TABLE.step-complite TD
+{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+
+TABLE.wizardStepInfo TD.title-complite
+{
+	BACKGROUND-COLOR    : #76B12E;
+	COLOR: #FFF;
+	PADDING-LEFT: 10px;
+	width: 150px;
+}
+
+TABLE.wizardStepInfo TD.title-current
+{
+	BACKGROUND-COLOR    : #0184D0;
+	COLOR: #FFF;
+	PADDING-LEFT: 10px;
+	width: 150px;
+}
+
+TABLE.wizardStepInfo TD.title-notpass
+{
+	BACKGROUND-COLOR    : #CCC;
+	COLOR: #666;
+	PADDING-LEFT: 10px;
+	width: 150px;
+}
+
+TABLE.wizardStepInfo TD.leftTop-complite 
+{
+	background-image: url('/img/wizard/gre_left_top.gif');
+	background-position: left top;
+	background-repeat: no-repeat;
+	BACKGROUND-COLOR    : #76B12E;
+	width: 17px;
+	HEIGHT: 15px;
+}
+
+TABLE.wizardStepInfo TD.rightTop-complite 
+{
+	background-image: url('/img/wizard/gre_right_top.gif');
+	background-position: right top;
+	background-repeat: no-repeat;
+	BACKGROUND-COLOR    : #76B12E;
+	width: 17px;
+	HEIGHT: 15px;
+}
+
+TABLE.wizardStepInfo TD.leftBot-complite 
+{
+	background-image: url('/img/wizard/gre_left_bot.gif');
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	BACKGROUND-COLOR    : #76B12E;
+	width: 17px;
+	HEIGHT: 15px;
+}
+
+TABLE.wizardStepInfo TD.rightBot-complite 
+{
+	background-image: url('/img/wizard/gre_right_bot.gif');
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	BACKGROUND-COLOR    : #76B12E;
+	width: 17px;
+	HEIGHT: 15px;
+}
+
+
+TABLE.wizardStepInfo TD.leftTop-current 
+{
+	background-image: url('/img/wizard/bl_left_top.gif');
+	background-position: left top;
+	background-repeat: no-repeat;
+	BACKGROUND-COLOR    : #0184D0;
+	width: 17px;
+	HEIGHT: 15px;
+}
+
+TABLE.wizardStepInfo TD.rightTop-current 
+{
+	background-image: url('/img/wizard/bl_right_top.gif');
+	background-position: right top;
+	background-repeat: no-repeat;
+	BACKGROUND-COLOR    : #0184D0;
+	width: 17px;
+	HEIGHT: 15px;
+}
+
+TABLE.wizardStepInfo TD.leftBot-current 
+{
+	background-image: url('/img/wizard/bl_left_bot.gif');
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	BACKGROUND-COLOR    : #0184D0;
+	width: 17px;
+	HEIGHT: 15px;
+}
+
+TABLE.wizardStepInfo TD.rightBot-current 
+{
+	background-image: url('/img/wizard/bl_right_bot.gif');
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	BACKGROUND-COLOR    : #0184D0;
+	width: 17px;
+	HEIGHT: 15px;
+}
+
+
+TABLE.wizardStepInfo TD.leftTop-notpass 
+{
+	background-image: url('/img/wizard/gr_left_top.gif');
+	background-position: left top;
+	background-repeat: no-repeat;
+	BACKGROUND-COLOR    : #CCC;
+	width: 17px;
+	HEIGHT: 15px;
+}
+
+TABLE.wizardStepInfo TD.rightTop-notpass 
+{
+	background-image: url('/img/wizard/gr_right_top.gif');
+	background-position: right top;
+	background-repeat: no-repeat;
+	BACKGROUND-COLOR    : #CCC;
+	width: 17px;
+	HEIGHT: 15px;
+}
+
+TABLE.wizardStepInfo TD.leftBot-notpass 
+{
+	background-image: url('/img/wizard/gr_left_bot.gif');
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	BACKGROUND-COLOR    : #CCC;
+	width: 17px;
+	HEIGHT: 15px;
+
+}
+
+TABLE.wizardStepInfo TD.rightBot-notpass 
+{
+	background-image: url('/img/wizard/gr_right_bot.gif');
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	BACKGROUND-COLOR    : #CCC;
+	width: 17px;
+	HEIGHT: 15px;
+}
+
+
+TABLE.wizardStepInfo TD.title, TABLE.wizardStepInfo TD.title A
+{
+	COLOR               : #FFF;
+	FONT-WEIGHT         : bold;
+}
+
+
+/*************************************************/
+
+TABLE.wizardStepInfo TD.value-complite 
+{
+	border-top: 1px solid #76B12E;
+	border-bottom: 1px solid #76B12E;
+	padding-left: 15px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+TABLE.wizardStepInfo TD.value-current 
+{
+	padding-left: 15px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+TABLE.wizardStepInfo TD.valueTop-complite 
+{
+	background-image: url('/img/wizard/gre_slim_rig_top.gif');
+	background-position: left top;
+	background-repeat: no-repeat;
+	width: 17px;
+	HEIGHT: 15px;
+}
+
+TABLE.wizardStepInfo TD.valueBot-complite 
+{
+	background-image: url('/img/wizard/gre_slim_rig_bot.gif');
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	width: 17px;
+	HEIGHT: 15px;
+}
+
+TABLE.wizardStepInfo TD.value-notpass 
+{
+	padding-left: 15px;
+	font-size: 11px;
+	font-weight: normal;
+	color: gray;
+}
+
+TABLE.wizardStepInfo TD.value SPAN.param
+{
+	COLOR               : #FFF;
+	FONT-WEIGHT         : bold;
+}
+
+TABLE.wizardStepInfo TD.value SPAN.value
+{
+
+}

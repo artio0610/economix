@@ -1,0 +1,149 @@
+@CHARSET "UTF-8";
+
+
+.widget_130 { 
+	margin:0 20px 20px 0; 
+	width:130px; 
+	height:130px; 
+	float:left; 
+	cursor:pointer;  
+	position:relative; 
+}
+.button_130 { 
+	width:130px; 
+	height:130px; 
+	float:left; 
+	text-align:center; 
+}
+
+.button_130 IMG { 
+	margin-top:35px; 
+	margin-bottom:5px; 
+}
+
+
+.button_130 DIV { 
+	clear:both; 
+	font-weight:bold; 
+	font-size:0.8em; 
+	color:#666; 
+}
+
+.button_130_default { 
+	background:url('/img/widget/button_default_130.png'); 
+}
+.button_130_bonus { 
+	background:url('/img/widget/button_green_130.png'); 
+}
+.button_130_new { 
+	background:url('/img/widget/button_red_130.png'); 
+}
+.button_130_both { 
+	background:url('/img/widget/button_both_130.png'); 
+}
+.slider_130 { 
+	background:url('/img/widget/button_slide_130.png'); 
+	width:244px; 
+	height:85px; 
+	padding:8px; 
+	margin-top:6px; 
+	font-size:0.9em; 
+	position:absolute; 
+	margin-left:120px; 
+	display:none; 
+	left:10px; 
+	top:10px; 
+}
+.slider_130 h1,h2,h3,h4 { 
+	font-size:2em;  
+	font-weight:bold; 
+	margin:0px; 
+	margin-bottom:5px; 
+}
+
+
+.widget_85 { 
+	padding:10px; 
+	width:85px; 
+	height:85px; 
+	float:left; 
+	cursor:pointer; 
+	position:relative;
+}
+.button_85 { 
+	width:85px; 
+	height:85px; 
+	float:left; 
+	text-align:center;
+}
+
+.button_85 span.text_top {
+	color: #FFFFFF; 
+	font: bold 10px Tahoma;
+	vertical-align: top;
+	width: 85px;
+}
+
+.button_85 img { 
+	margin-top: 1px; 
+	margin-bottom: 0; 
+	border:0 !important; 
+}
+.button_85 div { 
+	clear:both; 
+	font: normal 0.8em Tahoma;
+	color:#666; 
+	padding:0; 
+}
+.button_85_default { 
+	background:url('/img/widget/button_default_85.png'); 
+}
+
+.button_85_green { 
+	background:url('/img/widget/button_green_85.png');
+	
+}
+.button_85_blue { 
+	background:url('/img/widget/button_blue_85.png'); 
+	
+}
+.button_85_orange { 
+	background:url('/img/widget/button_orange_85.png'); 
+	
+}
+.button_85_bir { 
+	background:url('/img/widget/button_bir_85.png'); 
+}
+.slider_85 { 
+	background:url('/img/widget/button_slide_85.png'); 
+	width:162px; 
+	height:54px; 
+	padding:3px; 
+	margin-top:16px; 
+	font-size:0.9em; 
+	position:absolute; 
+	margin-left:85px; 
+	display:none; 
+	left:10px; top:10px; 
+}
+.slider_85 h1,h2,h3,h4 { 
+	font-size:2em;  
+	font-weight:bold; 
+	margin:0px; 
+	margin-bottom:5px;
+}
+
+.bantik {
+	position: absolute; 
+	background: url('/img/widget/bantik.png') no-repeat; 
+	width: 54px; 
+	height: 36px;
+	top: 0;
+	left: 76px;
+	clear: both;
+	_behavior: url(/js/htc/iepngfix.htc); 
+}
+
+.bant {
+	color: #7ca425; font-family:Trebuchet MS;  font-weight: bold; text-align: right;
+}

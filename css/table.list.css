@@ -1,0 +1,156 @@
+TABLE.list 
+{
+	BACKGROUND-COLOR    : #FFFFFF;
+	/*BORDER-COLLAPSE	: COLLAPSE;*/
+}
+
+table.list th 
+{
+	HEIGHT              : 20px !important;
+	PADDING           	: 0 2px 0 2px;
+	COLOR				: #000 !important;
+	FONT-WEIGHT         : bold !important;
+	background-color    : #eee;
+	font-family	: Tahoma, Arial, Geneva, Helvetica, sans-serif;	
+	FONT-SIZE			: 0.9em;
+	border				: 1px solid white;
+	vertical-align		: middle;		
+	text-align          : center;
+	white-space			: normal;
+}
+
+TABLE.list TD 
+{
+	HEIGHT              : 16px;
+	PADDING             : 3px;
+	FONT-SIZE			: 0.95em;
+	font-family	: Tahoma, Arial, Geneva, Helvetica, sans-serif;	
+}
+
+
+TABLE.list TR.odd, TABLE.list TD.odd 
+{
+	BACKGROUND-COLOR    : #EAEAEA;
+}
+
+TABLE.list TR.even, TABLE.list TD.even 
+{
+	BACKGROUND-COLOR    : #FFF;
+}
+
+TABLE.list TR.friendlyHighLight 
+{
+	BACKGROUND-COLOR    : #D1DC1F;
+}
+
+TABLE.list TR.friendlyStrongHighLight
+{
+	BACKGROUND-COLOR    : #B0C990;
+}
+
+TABLE.list TR.higlightAsNewRow TD
+{
+	
+}
+
+TABLE.list TR.selected
+{
+	BACKGROUND: #EDEDED;
+}
+
+
+TABLE.list TR.selected_important
+{
+	BACKGROUND: #FFE2E2;
+}
+
+
+
+TABLE.list TR.disabled TD
+{
+	BACKGROUND: #E6E6E6;
+}
+
+TABLE.list TR.disabled TD, TABLE.list TR.disabled TD A
+{
+	COLOR               : #666666;
+}
+
+TABLE.list TD.highLight
+{
+	BACKGROUND-COLOR    : #FCD9B6;
+}
+
+TABLE.list TD TD
+{
+	PADDING             : 0 !important;
+}
+
+TABLE.list TD A
+{
+	/*COLOR: #0184d0;*/
+}
+
+TABLE.list TD.title
+{
+	PADDING-TOP: 20px;
+	font-family	: Tahoma, Arial, Geneva, Helvetica, sans-serif;
+	FONT-SIZE: 14px;
+	text-align: left;
+	font-weight: bold;
+	COLOR: #000;
+}
+
+TABLE.list TR.empty_storage
+{
+	BACKGROUND-COLOR    : #FF9999 !important;
+}
+
+table.list td.text_to_left{
+	text-align: left !important;
+}
+
+table.list th.nowrap{
+	white-space: nowrap;
+}
+
+table.list td.nowrap{
+	white-space: nowrap;
+}
+
+
+table.list tr.disabledRow td {
+	color		: #666666;
+}
+
+
+
+TABLE.list TD.unitStatusMarket
+{
+	background-image: url('/img/company_ulist_u_at_market.gif');
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 35px;
+}
+
+
+TABLE.list TD.unitStatusAuction
+{
+	background-image: url('/img/company_ulist_u_at_auction.gif');
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 35px;
+}
+
+TABLE.list TD.unitStatusBill, TABLE.list TD.unitStatusBillNeedPay
+{
+	background-image: url('/img/company_ulist_u_zalog.gif');
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 35px;
+}
+
+TABLE.list TD.unitStatusBillNeedPay
+{
+	background-image: url('/img/company_ulist_u_zalog_np.gif');
+}

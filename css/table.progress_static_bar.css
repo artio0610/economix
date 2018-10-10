@@ -1,0 +1,51 @@
+TABLE.progress_static_bar
+{
+	HEIGHT              : 13px;
+}
+
+TABLE.progress_static_bar TD.progress_bar
+{
+	BORDER              : 1px solid #CCCCCC; 
+}
+
+TABLE.progress_static_bar TD.progress_bar_red
+{
+	BORDER              : 1px solid #a94442; 
+}
+
+TABLE.progress_static_bar TD.progress_bar_green
+{
+	BORDER              : 1px solid green; 
+}
+
+TABLE.progress_static_bar TD
+{
+	PADDING             : 1px;
+}
+
+TABLE.progress_static_bar TD DIV
+{
+	PADDING             : 0;
+	HEIGHT              : 13px;
+	BACKGROUND-IMAGE    : url('/img/progress_status_normal.gif');
+}
+
+TABLE.progress_static_bar TD DIV.progress_yellow
+{
+	PADDING             : 0;
+	HEIGHT              : 13px;
+	BACKGROUND-IMAGE    : url('/img/progress_status_yellow.gif');
+}
+
+TABLE.progress_static_bar TD DIV.progress_red
+{
+	PADDING             : 0;
+	HEIGHT              : 13px;
+	BACKGROUND-IMAGE    : url('/img/progress_status_red.gif');
+}
+
+TABLE.progress_static_bar TD DIV DIV
+{
+	HEIGHT              : 13px;
+	BACKGROUND-IMAGE    : url('/img/progress_status_overflow.gif');
+}

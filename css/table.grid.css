@@ -1,0 +1,104 @@
+table.grid 
+{
+	FONT-SIZE: 11px;
+}
+
+table.grid th 
+{
+	HEIGHT              : 32px;
+	PADDING             : 0;
+	FONT-WEIGHT         : bold !important;
+	BACKGROUND-COLOR	: #F2F2F2;
+	font-size			: 0.9em;
+	border				: 1px solid white;
+	vertical-align		: middle;	
+	text-align:center;
+}
+
+table.grid td 
+{
+	HEIGHT              : 20px;
+	PADDING             : 3px 5px;
+}
+
+table.grid td.title
+{
+/*	COLOR				: #CC6600; */
+	FONT                : caption;
+	TEXT-ALIGN          : left;
+/*	BACKGROUND-COLOR	: #F2F2F2; */
+}
+
+table.grid tr.odd 
+{
+	BACKGROUND-COLOR    : #FAFAFA;
+}
+
+table.grid tr.even 
+{
+	BACKGROUND-COLOR    : #FFFFFF;
+}
+
+table.grid tr.marketStatusUnit
+{
+	BACKGROUND-COLOR    : #FFF6DF;
+}
+
+table.grid tr.friendlyHighLight 
+{
+	BACKGROUND-COLOR    : #ECF5E2;
+}
+
+table.grid tr.friendlyStrongHighLight 
+{
+	BACKGROUND-COLOR    : #B0C990;
+}
+
+table.grid tr.selected
+{
+	BACKGROUND-COLOR    : #EDEDED;
+}
+
+table.grid tr.disabled td
+{
+	BACKGROUND-COLOR    : #DDDCDC;
+}
+
+table.grid tr.disabled td, table.grid tr.disabled td A
+{
+	COLOR               : #FFFFFF;
+}
+
+table.grid tr.grid_separator td
+{
+	PADDING             : 0 !important;
+	HEIGHT              : 1px !important;
+	BACKGROUND-COLOR    : #CEDFE2 !important;
+}
+
+table.grid td td
+{
+	PADDING             : 0 !important;
+}
+
+table.grid td.nowrap{
+	white-space: nowrap;
+}
+
+table.grid div.float_left{
+	float:left;
+}
+
+table.grid input.messageData{
+	margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+table.grid td.text_to_left{
+	text-align: left !important;
+}
+
+table.grid td.nowrap{
+	white-space: nowrap;
+}

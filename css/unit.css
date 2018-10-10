@@ -1,0 +1,47 @@
+
+.unit-upgrade-info
+{
+	text-align:right;
+}
+
+.unit-upgrade-info p
+{
+	text-align:left;
+	margin:0;
+}
+
+.unit-upgrade-info h4
+{
+	color:green;
+}
+
+.unit-upgrade-info div
+{
+	padding:0;
+	margin-top:.5em;
+}
+
+.unit-upgrade-info input
+{
+	display:none;
+}
+
+.unit-upgrade-info .speedup label
+{
+	color:green;
+	text-decoration:underline;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.unit-upgrade-info .speedup div
+{
+	display:none;
+	margin-top:.5em;
+	padding:.5em;
+}
+
+.unit-upgrade-info input:checked ~ div
+{	
+	display:block;
+}

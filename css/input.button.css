@@ -1,0 +1,223 @@
+INPUT.button, 
+INPUT.button100, INPUT.button115, INPUT.button130, 
+INPUT.button145, INPUT.button160, INPUT.button175,
+INPUT.button190, INPUT.button205, INPUT.button220,
+INPUT.button235, INPUT.button250, INPUT.button265,
+INPUT.button280, INPUT.button295, INPUT.button310,
+INPUT.buttonDisabled, 
+INPUT.buttonDisabled100, INPUT.buttonDisabled115, INPUT.buttonDisabled130, 
+INPUT.buttonDisabled145, INPUT.buttonDisabled160, INPUT.buttonDisabled175,
+INPUT.buttonDisabled190, INPUT.buttonDisabled205, INPUT.buttonDisabled220,
+INPUT.buttonDisabled235, INPUT.buttonDisabled250, INPUT.buttonDisabled265,
+INPUT.buttonDisabled280, INPUT.buttonDisabled295, INPUT.buttonDisabled310
+{
+	PADDING-BOTTOM	    : 2px;
+	WIDTH               : 100px;
+	HEIGHT              : 24px !important;
+	COLOR               : #000;
+	BORDER              : 0 !important;
+	BACKGROUND-COLOR    : transparent !important;
+	BACKGROUND-IMAGE    : url('/img/button/100.gif');
+}
+
+INPUT.buttonDisabled, 
+INPUT.buttonDisabled100, INPUT.buttonDisabled115, INPUT.buttonDisabled130, 
+INPUT.buttonDisabled145, INPUT.buttonDisabled160, INPUT.buttonDisabled175,
+INPUT.buttonDisabled190, INPUT.buttonDisabled205, INPUT.buttonDisabled220,
+INPUT.buttonDisabled235, INPUT.buttonDisabled250, INPUT.buttonDisabled265,
+INPUT.buttonDisabled280, INPUT.buttonDisabled295, INPUT.buttonDisabled310
+{
+	COLOR               : #909090 !important;
+}
+
+INPUT.button115, INPUT.buttonDisabled115
+{
+	WIDTH               : 115px;
+	BACKGROUND-IMAGE    : url('/img/button/115.gif');
+}
+
+INPUT.button130, INPUT.buttonDisabled130
+{
+	WIDTH               : 130px;
+	BACKGROUND-IMAGE    : url('/img/button/130.gif');
+}
+
+INPUT.button145, INPUT.buttonDisabled145
+{
+	WIDTH               : 145px;
+	BACKGROUND-IMAGE    : url('/img/button/145.gif');
+}
+
+INPUT.button160
+{
+	width               : 160px;
+	BACKGROUND-IMAGE    : url('/img/button/160.gif');
+}
+
+INPUT.button175, INPUT.buttonDisabled175
+{
+	WIDTH               : 175px;
+	BACKGROUND-IMAGE    : url('/img/button/175.gif');
+}
+
+INPUT.button190, INPUT.buttonDisabled190
+{
+	WIDTH               : 190px;
+	BACKGROUND-IMAGE    : url('/img/button/190.gif');
+}
+
+INPUT.button205, INPUT.buttonDisabled205
+{
+	WIDTH               : 205px;
+	BACKGROUND-IMAGE    : url('/img/button/205.gif');
+}
+
+INPUT.button220
+{
+	WIDTH               : 220px;
+	BACKGROUND-IMAGE    : url('/img/button/220.gif');
+}
+
+INPUT.button235, INPUT.buttonDisabled235
+{
+	WIDTH               : 235px;
+	BACKGROUND-IMAGE    : url('/img/button/235.gif');
+}
+
+INPUT.button250, INPUT.buttonDisabled250
+{
+	WIDTH               : 250px;
+	BACKGROUND-IMAGE    : url('/img/button/250.gif');
+}
+
+INPUT.button265, INPUT.buttonDisabled265 
+{
+	WIDTH               : 265px;
+	BACKGROUND-IMAGE    : url('/img/button/265.gif');
+}
+
+INPUT.button280, INPUT.buttonDisabled280
+{
+	WIDTH               : 280px;
+	BACKGROUND-IMAGE    : url('/img/button/280.gif');
+}
+
+INPUT.button295, INPUT.buttonDisabled295
+{
+	WIDTH               : 295px;
+	BACKGROUND-IMAGE    : url('/img/button/295.gif');
+}
+
+INPUT.button310, INPUT.buttonDisabled310
+{
+	WIDTH               : 310px;
+	BACKGROUND-IMAGE    : url('/img/button/310.gif');
+}
+
+/**/
+
+INPUT.buttonDisabled, INPUT.buttonDisabled100
+{
+	BACKGROUND-IMAGE    : url('/img/button/disabled/100.gif');
+}
+
+INPUT.buttonDisabled115
+{
+	WIDTH               : 115px;
+	BACKGROUND-IMAGE    : url('/img/button/disabled/115.gif');
+}
+
+INPUT.buttonDisabled130
+{
+	WIDTH               : 130px;
+	BACKGROUND-IMAGE    : url('/img/button/disabled/130.gif');
+}
+
+INPUT.buttonDisabled145
+{
+	WIDTH               : 145px;
+	BACKGROUND-IMAGE    : url('/img/button/disabled/145.gif');
+}
+
+INPUT.buttonDisabled160
+{
+	WIDTH               : 160px;
+	BACKGROUND-IMAGE    : url('/img/button/disabled/160.gif');
+}
+
+INPUT.buttonDisabled175
+{
+	WIDTH               : 175px;
+	BACKGROUND-IMAGE    : url('/img/button/disabled/175.gif');
+}
+
+INPUT.buttonDisabled190
+{
+	WIDTH               : 190px;
+	BACKGROUND-IMAGE    : url('/img/button/disabled/190.gif');
+}
+
+INPUT.buttonDisabled205
+{
+	WIDTH               : 205px;
+	BACKGROUND-IMAGE    : url('/img/button/disabled/205.gif');
+}
+
+INPUT.buttonDisabled220
+{
+	WIDTH               : 220px;
+	BACKGROUND-IMAGE    : url('/img/button/disabled/220.gif');
+}
+
+INPUT.buttonDisabled235
+{
+	WIDTH               : 235px;
+	BACKGROUND-IMAGE    : url('/img/button/disabled/235.gif');
+}
+
+INPUT.buttonDisabled250
+{
+	WIDTH               : 250px;
+	BACKGROUND-IMAGE    : url('/img/button/disabled/250.gif');
+}
+
+INPUT.buttonDisabled265
+{
+	WIDTH               : 265px;
+	BACKGROUND-IMAGE    : url('/img/button/disabled/265.gif');
+}
+
+INPUT.buttonDisabled280
+{
+	WIDTH               : 280px;
+	BACKGROUND-IMAGE    : url('/img/button/disabled/280.gif');
+}
+
+INPUT.buttonDisabled295
+{
+	WIDTH               : 295px;
+	BACKGROUND-IMAGE    : url('/img/button/disabled/295.gif');
+}
+
+INPUT.buttonDisabled310
+{
+	WIDTH               : 310px;
+	BACKGROUND-IMAGE    : url('/img/button/disabled/310.gif');
+}
+
+INPUT.buttonMiniAdd
+{
+	WIDTH               : 24px;
+	HEIGHT		   	      : 24px;
+	BACKGROUND-IMAGE    : url('/img/button/mini_add.gif');
+	BORDER		          : 0 !important;
+}
+
+INPUT.buttonMiniDel
+{
+	WIDTH               : 24px;
+	HEIGHT		    	    : 24px;
+	BACKGROUND-IMAGE    : url('/img/button/mini_del.gif');
+	BORDER		          : 0 !important;
+	position: absolute;
+}

@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+
+
+a.wiki_link{
+	COLOR               : #0184d0;
+	PADDING-right       : 26px;
+	background-image    : url(/img/wiki_link.gif);
+	background-repeat   : no-repeat;
+	background-position : left;
+	margin-left:5px;
+}
+
+A.popup { PADDING:7px; COLOR:#0184d0; PADDING-LEFT:13px; background: url(/img/popup.gif) no-repeat left; }
+A.popup_header { COLOR:#eee; PADDING-LEFT:13px; background: url(/img/popup_header.gif) no-repeat left; }
+A.cancel { COLOR:#D41A1A; PADDING-LEFT:13px; background-image:url(/img/cancel.gif); background-repeat:no-repeat; background-position:left; }
+A.cancel_header { COLOR:#eee; PADDING-LEFT:13px; background: url(/img/cancel_header.gif) no-repeat left; }
+
+A.link_header, .link_header_important A, .link_header_important-a A
+{ COLOR:#eee; PADDING-LEFT:13px; background:url(/img/link_header.gif) no-repeat left; }
+
+.link_header_important A, .link_header_important-a A { TEXT-DECORATION:none; }
+
+.link_header_important A { COLOR: #85C22D; }
+
+.link_header_important, .link_header_important-a { 
+	PADDING:		3px;
+	BORDER:			1px solid #EAA122; 
+	TEXT-ALIGN:		center; 
+}
+
+.link_header_important-a A { 
+	COLOR:			#EAA122; 
+}
+
+.link_header_important-a { 
+	BORDER-COLOR:	#85C22D; 
+}
+
+A.internal_link { 
+	COLOR:			#0184d0; 
+	PADDING-LEFT:	13px; 
+	background:		url(/img/link.gif) no-repeat left; 
+}
+
+A.special_marketing_link {
+	FONT-SIZE:		11px; 
+	COLOR:			#0184d0; 
+	PADDING-LEFT:	12px; 
+	BORDER-LEFT:	2px solid #699E26; 
+	MARGIN-LEFT:	5px; 
+}
+
+A.list_sublink {
+	FONT-SIZE:		10px;
+	COLOR:			#699E26 !important;
+	PADDING-RIGHT:	20px;
+	background:		url(/img/more.gif) no-repeat right;
+}

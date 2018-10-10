@@ -1,0 +1,78 @@
+
+DIV.competitionDescr, DIV.competitionDescr-a
+{
+	MARGIN-BOTTOM				: 10px;
+}
+
+DIV.competitionDescr DIV.cheader, DIV.competitionDescr-a DIV.cheader
+{
+	HEIGHT							: 20px;
+	BACKGROUND-COLOR		: #ADADAD;
+	BACKGROUND-IMAGE		: url('/img/cornerLightGreenLeftTop.gif');
+	BACKGROUND-REPEAT		: no-repeat;
+	BACKGROUND-POSITION	: left top;
+}
+
+DIV.competitionDescr DIV.cheader DIV, DIV.competitionDescr-a DIV.cheader DIV
+{
+	HEIGHT							: 20px;
+	PADDING							: 3px 10px;
+	COLOR								: #000000;
+	FONT-WEIGHT					: bold;
+	BACKGROUND-IMAGE		: url('/img/cornerLightGreenRightTop.gif');
+	BACKGROUND-REPEAT		: no-repeat;
+	BACKGROUND-POSITION	: right top;
+}
+
+DIV.competitionDescr DIV.ccontent, DIV.competitionDescr-a DIV.ccontent
+{
+	PADDING							: 10px 60px;
+	BORDER							: 1px solid #ADADAD;
+	BORDER-TOP					: 0 !important;
+	BACKGROUND-IMAGE		: url('/img/competitionUser.gif');
+	BACKGROUND-REPEAT		: no-repeat;
+	BACKGROUND-POSITION	: right top;
+}
+
+
+DIV.competitionDescr-a DIV.cheader
+{
+	BACKGROUND-COLOR		: #98CC41;
+	BACKGROUND-IMAGE		: url('/img/cornerLightGreenLeftTop-a.gif');
+}
+
+DIV.competitionDescr-a DIV.cheader DIV
+{
+	COLOR								: #FEFEFE;
+	BACKGROUND-IMAGE		: url('/img/cornerLightGreenRightTop-a.gif');
+}
+
+DIV.competitionDescr-a DIV.ccontent
+{
+	BORDER							: 1px solid #98CC41;
+	BACKGROUND-COLOR		: #F1FBE4;
+}
+
+DIV.competitionDescr DIV.ccontent DIV, DIV.competitionDescr-a DIV.ccontent DIV
+{
+	TEXT-ALIGN					: right
+}
+
+
+DIV.competitionDescr DIV.ccompany
+{
+	BACKGROUND-IMAGE		: url('/img/competitionCompany.gif');
+}
+DIV.competitionDescr-a DIV.ccompany
+{
+	BACKGROUND-IMAGE		: url('/img/competitionCompany-a.gif');
+}
+
+DIV.competitionDescr DIV.cuser
+{
+	BACKGROUND-IMAGE		: url('/img/competitionUser.gif');
+}
+DIV.competitionDescr-a DIV.cuser
+{
+	BACKGROUND-IMAGE		: url('/img/competitionUser-a.gif');
+}

@@ -1,0 +1,127 @@
+
+FIELDSET.unit_superior_prd_rep
+{
+	clear: both;
+}
+
+FIELDSET.unit_superior_prd_rep LEGEND
+{
+	color: black;
+	padding: 5px 10px;
+	font-weight: normal;
+}
+
+FIELDSET.unit_superior_prd_rep LEGEND .unitlink
+{
+	font-size: 120%;
+	font-weight: bold;
+}
+
+DIV.superior_prd_rep
+{
+	float: left;
+	margin: 10px;
+	width: 108px;
+}
+
+DIV.superior_prd_rep .prd_symbol, 
+DIV.superior_prd_rep .nfo
+{
+	float: left;
+	position: relative;
+}
+
+DIV.superior_prd_rep .sqrs DIV
+{
+	overflow: hidden;
+	float: left;
+	width: 8px;
+	height: 8px;
+	margin: 0 2px;
+	border: 1px solid silver;
+}
+
+DIV.superior_prd_rep .sqrs .full
+{
+	background-color: silver;
+}
+
+DIV.superior_prd_rep .bar
+{
+	overflow: hidden;
+	width: 65px;
+	height: 10px;
+	background: #9ec8fb;
+	margin: 2px 0 3px 2px;
+}
+
+DIV.superior_prd_rep .barempty
+{
+	overflow: hidden;
+	width: 63px;
+	height: 8px;
+	border: 1px solid #9ec8fb;
+	margin: 2px 0 3px 2px;
+}
+
+DIV.superior_prd_rep .highlight
+{
+	overflow: hidden;
+	position: absolute;
+	z-index: 2;
+	top: 0px;
+	height: 10px;
+	width: 10px;
+	background: #f9cf25;
+	margin: 2px 0 6px 2px;
+}
+
+DIV.superior_prd_rep .a1
+{
+	overflow: hidden;
+	position: absolute;
+	z-index: 3;
+	top: 9px;
+	width: 9px;
+	height: 5px;
+	background: url('/img/superior_prd_rep_a_1.gif');
+}
+
+DIV.superior_prd_rep .a2
+{
+	overflow: hidden;
+	position: absolute;
+	z-index: 3;
+	top: 0px;
+	width: 9px;
+	height: 5px;
+	background: url('/img/superior_prd_rep_a_2.gif');
+}
+
+DIV.superior_prd_rep .contractbar
+{
+	overflow: hidden;
+	position: relative;
+	width: 65px;
+	height: 4px;
+	background-color: #9ec8fb;
+	margin: 16px 0 0px 2px;
+}
+
+DIV.superior_prd_rep .contractbar DIV
+{
+	overflow: hidden;
+	height: 4px;
+	background-color: #f9cf25;
+}
+
+DIV.superior_prd_rep .contractbar .etalon
+{
+	overflow: hidden;
+	position: absolute;
+	left: 50%;
+	top: -1px;
+	width: 1px;
+	height: 6px;
+	background-color: #8b8686;
+}

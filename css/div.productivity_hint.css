@@ -1,0 +1,13 @@
+DIV.productivity_hint
+{
+	PADDING             : 7px;
+	BORDER-BOTTOM       : 2px solid #699E26;
+	BACKGROUND-COLOR    : #EAEEBA;
+}
+
+DIV.productivity_hint DIV.title
+{
+	PADDING             : 3px; 
+	FONT-WEIGHT         : bold;
+	COLOR								: #0044DD; 
+}

@@ -1,0 +1,27 @@
+@charset "utf-8";
+html * { font-size: 100%;}
+body { background: #fffbf1; font-family: tahoma, arial, geneva, helvetica, sans-serif; position: relative;}
+body a { color: #0184d0; outline: none;}
+p { line-height: 1.5em; margin: 0 0 1em 0;} 
+form{ margin: 0; padding: 0;}
+fieldset{ padding: 10px; border: 1px solid #ccc;}
+fieldset legend{ padding: 0 10px; font-weight: bold;}
+fieldset.filters{ margin-top: 5px; margin-bottom: 3px; padding: 0; border: 0; border-top: 3px solid #699e26; border-bottom: 1px solid #699e26; background-color: #eaeeba !important;}
+fieldset.advanced_filters{ margin-top: 0; margin-bottom: 3px; padding: 0; border: 0;}
+fieldset.notice{ margin-top: 3px; padding: 7px; border: 0; border-top: 1px solid #ccc; border-bottom: 2px solid #ccc;}
+fieldset.notice legend{ padding: 5px; font-weight: bold;}
+input, textarea, select{ font-size: 100%;}
+
+input.radio, input.checkbox{ width: 12px; height: 12px; border: 0 !important; background-color: transparent !important;}
+input[type=radio], input[type=checkbox]{ width: 12px; height: 12px; border: 0 !important; background-color: transparent !important;}
+input.image, input.image{ border: 0 !important;}
+input.readonlyqaudy, /* q style )) */input.readonlyquady{ color: #ffffff; background-color: #95bf67 !important;}
+input.readonly{ color: #2a3f4e; background-color: transparent !important; border: 0 !important;}
+.hidden { display: none;}
+.invisible { visibility: hidden;}
+.redtext { color: #f00;}
+.boldtext { font-weight: bold;}
+.blockui {z-index: 9999999!important;}
+.gray_text {color: #666;}
+#limite {text-align:center;}
+input.money {width:80px;}

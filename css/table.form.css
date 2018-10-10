@@ -1,0 +1,105 @@
+TABLE.form HR
+{
+	PADDING             : 0px;
+	BORDER-WIDTH        : 1px;
+	BORDER-STYLE        : inset;
+}
+
+TABLE.form TH
+{
+	HEIGHT              : 20px;
+	COLOR               : #000;
+	BORDER              : 0;
+	FONT-SIZE			  : 10px;
+	BACKGROUND-COLOR    : #EEE;
+}
+
+TABLE.form
+{
+
+	BORDER-WIDTH        : 1px;
+	BACKGROUND-COLOR    : #FFF;
+
+}
+
+TABLE.form TD
+{
+	PADDING             : 4px;
+	VERTICAL-ALIGN      : top;
+}
+
+
+TABLE.form TABLE
+{
+/*
+	BORDER-WIDTH        : 2px;
+	BORDER-COLOR        : ThreeDHighlight;
+	BORDER-STYLE        : groove;
+*/
+}
+
+TABLE.form TD.verticalSeparator
+{
+	WIDTH              	: 2px;
+	/*BORDER              : inset #EFEFEF;
+	BORDER-WIDTH        : 0 2px 0 0;*/
+}
+
+TABLE.form INPUT
+{
+	/*BORDER              : 1px solid #666;*/
+}
+
+TABLE.form INPUT[type=radio]
+{
+	/*BORDER: none;*/
+}
+
+TABLE.form INPUT.long, TABLE.form TEXTAREA.long, TABLE.form SELECT.long
+{
+	WIDTH               : 99%;
+}
+
+TABLE.form INPUT.normal, TABLE.form TEXTAREA.normal, TABLE.form SELECT.normal
+{
+	WIDTH               : 60%;
+}
+
+TABLE.form INPUT.short, TABLE.form TEXTAREA.short, TABLE.form SELECT.short
+{
+	WIDTH               : 40%;
+}
+
+table.form INPUT.money
+{
+	WIDTH               : 80px;
+}
+
+TABLE.form TD.title
+{
+	HEIGHT              : 32px;
+	PADDING             : 5px;
+	COLOR							  : #CC6600;
+	FONT-WEIGHT         : bold !important;
+	text-align: left;
+}
+
+TABLE.form TD.separator_top
+{
+	BORDER-TOP					: 1px solid #ccc;
+}
+
+TABLE.form TD.separator_bottom
+{
+	BORDER-BOTTOM				: 1px solid #ccc;
+}
+
+TABLE.form TD.separator_top_bottom
+{
+	BORDER-BOTTOM				: 1px solid #ccc;
+	BORDER-TOP					: 1px solid #ccc;
+}
+
+table.form td.nowrap {
+	white-space: nowrap;
+}

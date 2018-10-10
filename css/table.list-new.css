@@ -1,0 +1,50 @@
+
+TABLE.listnew
+{
+	
+}
+
+TABLE.listnew TD
+{
+	padding: 5px;
+	background-color: #ffffff;
+}
+
+TABLE.listnew TH
+{
+	padding: 0 2px;
+	height: 18px;
+	font-size: 90%;
+	background: #d7d7d7 url('/img/table-list-th.gif') top left repeat-x;
+}
+
+TABLE.listnew TR.title TD
+{
+	padding: 0 10px;
+	height: 33px;
+	font-size: 90%;
+	font-weight: bold;
+	background: #d5daa0 url('/img/table-list-title.gif') top left repeat-x;
+}
+
+TABLE.listnew .rb
+{
+	border-right: 1px solid #b3b4b4;
+}
+
+TABLE.listnew TR.even TD
+{
+	background-color: #f4f4f4;
+}
+
+TABLE.listnew TR.unavailable TD
+{
+	color: #71716f;
+	background-image: url('/img/table-list-shtrikh.gif');
+}
+
+TABLE.listnew TR.complete TD
+{
+	color: #466946;
+	background-image: url('/img/table-list-shtrikh_.gif');
+}

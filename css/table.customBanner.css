@@ -1,0 +1,17 @@
+TABLE.customBanner
+{
+	BORDER-WIDTH        : 1px;
+	BORDER-STYLE        : solid;
+	BORDER-COLLAPSE     : collapse;
+	BORDER-COLOR		    : #2A3F4E;
+	BACKGROUND-COLOR    : #FFFFFF;
+	PADDING							: 0;
+	MARGIN							: 0;
+}
+
+TABLE.customBanner SPAN
+{
+	COLOR               : #006699;
+	FONT-WEIGHT         : bold !important;
+	FONT-SIZE           : 13px;
+}

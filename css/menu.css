@@ -1,0 +1,180 @@
+/* CSS Document */
+
+* {
+    outline: none;
+}
+
+#calendar_s,
+#calendar_e {
+    float: left;
+    padding: 0;
+    margin-top: 2px;
+}
+
+#menutop,
+#menutop li ul,
+#menutop li.cur1 {
+    background-image: url(/img/menu.png);
+    background-color: #666;
+    background-repeat: repeat-x;
+}
+
+#menutop {
+    height: 56px;
+    padding-left: 0;
+    padding-top: 5px;
+    position: relative;
+}
+
+#menutop li ul {
+    display: none;
+}
+
+#menutop li {
+    border-right: 1px solid #777;
+    float: left;
+    height: 22px;
+    margin: 0;
+    padding: 4px 0px 1px;
+    list-style-type: none;
+}
+
+#menutop li span {
+    color: #DDD;
+    cursor: default;
+}
+
+#menutop a,
+#menutop span {
+    display: block;
+    padding: 2px 10px 4px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+#menutop li.icon {
+    border-right: medium none;
+    float: right;
+    padding: 0;
+}
+
+#menutop li.cur1 {
+    background-position: 0 -93px;
+}
+
+#menutop li ul {
+    background-position: 0 -63px;
+    left: 0;
+    top: 32px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 28px;
+    width: 1000px;
+}
+
+#menutop span.cur1 {
+    font-weight: 700;
+}
+
+#menutop li.cur1 ul {
+    display: block;
+}
+
+#menutop li.cur1 span {
+    color: #FFD700;
+    text-shadow: 0 -3px 12px #FFD700;
+}
+
+#menutop li.cur1 ul li {
+    border-right: 1px solid #666!important;
+    padding: 4px 2px 2px;
+}
+
+#menutop li.cur1 ul li.cur1 a {
+    font-weight: bold;
+    color: #FFD700!important;
+}
+
+#menutop li.cur1 ul li.current a,
+#menutop li a {
+    color: #fff;
+}
+
+#menutop li ul a {
+    font-size: 11px;
+}
+
+#menutop li ul a:hover {
+    text-decoration: underline;
+    color: #FFD700;
+    text-shadow: 0 -3px 12px #FFD700;
+}
+
+#menutop li a:hover {
+    text-decoration: underline;
+    color: #FFD700;
+    text-shadow: 0 -3px 12px #FFD700;
+}
+
+#menutop a.dashboard {
+    background-image: url(/img/v2/common/dashboard.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 15px;
+    height: 14px;
+    padding: 4px 0 0 4px;
+}
+
+#menutop li.cur1 a.dashboard {
+    background-image: url(/img/v2/common/dashboard_hover.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 15px;
+    height: 14px;
+    padding: 4px 0 0 4px;
+}
+
+#menutop span.dashboard {
+    cursor: pointer;
+}
+
+.exclusive a {
+    color: #fda !important;
+}
+
+.currentexclusive a {
+    color: #FFA07A !important;
+}
+
+.exclusive a:hover {
+    text-decoration: underline !important;
+}
+
+.ico-presale-menu a {
+    color: #25d24c !important;
+}
+
+.ico-presale-menu a .data {
+    margin-left: 3px;
+    vertical-align: top;
+}
+
+.ico-presale-menu a:hover {
+    text-decoration: underline !important;
+}
+
+.shopping_cart a {
+    padding-top: 0!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.shopping_cart a span {
+    background: url(/img/first/shopping-cart-accept.png) no-repeat;
+    display: block;
+    height: 18px;
+    width: 4px;
+    cursor: pointer !important;
+    padding: none !important;
+}

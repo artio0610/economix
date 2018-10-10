@@ -1,0 +1,81 @@
+TABLE.tabsub  
+{
+	BORDER              : 1;	
+	BORDER-COLLAPSE     : collapse;
+	POSITION				 : relative;
+}
+
+TABLE.tabsub TD  
+{
+	font-family	: Tahoma, Arial, Geneva, Helvetica, sans-serif;
+	FONT-SIZE: 11px;
+	PADDING             : 4px;
+	PADDING-TOP         : 4px;
+	TEXT-ALIGN          : center;
+	BACKGROUND-COLOR    : #FFF;
+	BORDER              : 0;
+	BORDER-STYLE        : solid;
+	BORDER-COLOR        : #FFF;
+	BORDER-TOP-COLOR 	: #FFF;
+	BORDER-WIDTH        : 0px;
+	BORDER-BOTTOM-WIDTH : 0px;
+	CURSOR              : pointer;
+	CURSOR              : hand;
+	white-space			: nowrap;
+}
+
+TABLE.tabsup  
+{
+	BORDER              : 0;	
+	BORDER-COLLAPSE     : collapse;
+	POSITION				  : relative;
+	PADDING             : 4px;
+	white-space			  : nowrap;
+}
+
+TABLE.tabsup TD  
+{
+	/*PADDING             : 4px;
+	PADDING-LEFT        : 7px;
+	PADDING-RIGHT       : 7px;
+	PADDING-BOTTOM      : 12px;*/
+	TEXT-ALIGN          : center;
+	BACKGROUND-COLOR    : #FFF;
+	BORDER              : 0;
+	BORDER-STYLE        : solid;
+	BORDER-COLOR        : #FFF;
+	BORDER-BOTTOM-COLOR : #FFF;
+	BORDER-WIDTH        : 1px;
+	BORDER-TOP-WIDTH 		: 0px;
+	CURSOR              : pointer;
+	CURSOR              : hand;
+	PADDING             : 4px;
+}
+
+TABLE.tabsub TD, TABLE.tabsub TD A, TABLE.tabsup TD, TABLE.tabsup TD A
+{
+	COLOR               : #333333;
+	TEXT-DECORATION     : underline;
+}
+
+
+TABLE.tabsub TD.selected, TABLE.tabsup TD.selected
+{
+	BACKGROUND-COLOR    : #8A4CA9;
+}
+
+TABLE.tabsub TD.selectedAnotherHL
+{
+	BORDER    : 1px solid #8A4CA9;
+}
+
+TABLE.tabsub TD.selected, TABLE.tabsub TD.selected A, TABLE.tabsup TD.selected, TABLE.tabsup TD.selected A
+{
+	COLOR               : #FFFFFF;
+	TEXT-DECORATION     : none;
+}
+
+TABLE.tabsub TD.separator
+{
+	PADDING							: 10px;
+}

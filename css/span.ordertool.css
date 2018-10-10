@@ -1,0 +1,26 @@
+DIV.ordertool  
+{
+	WIDTH							: auto;
+	HEIGHT						: auto;
+	WHITE-SPACE: nowrap !important;
+}
+
+//DIV.active  { background: #8A4CA9; }
+
+TABLE.ordercont {height:100%;}
+
+TD.title-ordertool  
+{
+	FONT-WEIGHT: bold;
+	font-size: 1em !important;
+	WHITE-SPACE: nowrap !important;
+	vertical-align:middle;
+}
+
+TD.arrows { vertical-align:middle; }
+
+TD.active  { COLOR: white; }
+
+.list th div.active {
+	background-color: #a3a965;
+}
