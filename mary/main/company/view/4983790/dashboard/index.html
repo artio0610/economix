@@ -7,11 +7,11 @@
     <!--<![endif]-->
     <!-- BEGIN HEAD -->
 
-	      
+	
     <head>
 
-					<!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
-		
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta charset="utf-8" />
 
@@ -52,7 +52,7 @@
 
 				<link href="/css/en/lang.css" rel="stylesheet" type="text/css" />		
 
-				<link href="/css/api.css" rel="stylesheet" type="text/css" />
+				<link href="/css/api.css?v=1810101" rel="stylesheet" type="text/css" />
 		
 		<!-- <link rel="stylesheet" href="/css/virta-metronic.css" /> -->
 	
@@ -66,9 +66,9 @@
 
         
 		
-								<link href="/css/main.css?v=181009" rel="stylesheet" type="text/css" />
-											<link href="/css/realms/mary.css?v=1810097" rel="stylesheet" type="text/css" />
-							<link href="/css/en/mary.css?v=1810097" rel="stylesheet" type="text/css" />
+								<link href="/css/main.css?v=1810101" rel="stylesheet" type="text/css" />
+											<link href="/css/realms/mary.css?v=18101017" rel="stylesheet" type="text/css" />
+							<link href="/css/en/mary.css?v=18101017" rel="stylesheet" type="text/css" />
 							<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link href="/css/fonts/vic-font.css" rel="stylesheet" type="text/css" />		
 		<!-- <link href="/css/metro_header.css" rel="stylesheet" type="text/css" /> -->
@@ -114,7 +114,7 @@
 			</a>
 			<a href="#" id="menu-settings-toggle">
 				<i class="fa fa-cog"></i>Mary</a><div class="date_time" title="Server Time">
-				27 December 66
+				3 January 67
 				<span id="server-time">00:00:00</span>
 				<span class="" style="" title="Time to game update">
 					<span id="countdown">00:00:00</span>
@@ -157,7 +157,7 @@
 				$('.menu_settings').hide();
 			});			
 
-			var tm = new VTimer(1539091332, 1539133200, $('#countdown, #countdown_add'), $('#server-time'),
+			var tm = new VTimer(1539182780, 1539219600, $('#countdown, #countdown_add'), $('#server-time'),
 			function(t)
 		{
 			var fivemin = 300000;
@@ -221,7 +221,7 @@ h3.popover-title {
 				>
 					no party				</a>
 											<p class="actives">Ranking in assets: <span>1283</span></p>
-											<p class="turnover">Ranking in turnover: <span>2572</span></p>
+											<p class="turnover">Ranking in turnover: <span>2589</span></p>
 									</div>
 
 		<!-- если есть  опопвенщения то: -->
@@ -244,7 +244,7 @@ h3.popover-title {
 		<a href="https://virtonomics.com/mary/main/user/privat/persondata/money">
 		<div class="item">
 			<!-- здесь важно отсутствие пробела между </span><i class...: -->
-			<span class="money">$121 852 494</span><i class="fa fa-plus-square" aria-hidden="true"></i>
+			<span class="money">$121 446 926</span><i class="fa fa-plus-square" aria-hidden="true"></i>
 		</div>
 	</a>
 			<a href="https://virtonomics.com/mary/main/user/privat/persondata/payment/plan" title="Add payment" alt="Add payment">
@@ -262,11 +262,15 @@ h3.popover-title {
 </div>
 <!-- блок корзины -->
 <a href="https://virtonomics.com/mary/main/user/privat/persondata/cart/list">
-		<div class="cart"><span>1</span></div>		
+		<div class="cart cart_empty"></div>
 	</a>
 <!--  -->
 	</div>
-</div>		<!-- / хеадер 2017 -->
+</div>
+<div class="content-height-fix"></div>
+		<script>
+			$(".content-height-fix").css({'height':($(".title").height()+20+'px')});
+		</script>		<!-- / хеадер 2017 -->
 	</div>
 
 			<div id="mainContent">
@@ -299,12 +303,12 @@ h3.popover-title {
 			<span class="t">Management and Business Development</span>
 		</a>
 
-		<a href="https://virtonomics.com/mary/main/user/privat/persondata/knowledge" class="item">
-			<img src="/i/app/virtonomica/misc/dashboard-nav/manager.png">
-			<span class="n">Top-manager</span>
-			<span class="t">Profile, Skills, Awards, Office</span>
+				<a href="https://virtonomics.com/mary/main/exclusive_market/unit/list" class="item">
+			<img src="/i/app/virtonomica/misc/dashboard-nav/prom.png">
+			<span class="n">Best Offers</span>
+			<span class="t">Unique and special offers</span>
 		</a>
-
+		
 				<a href="https://virtonomics.com/mary/main/user/privat/persondata/quest/list" class="item">
 			<img src="/i/app/virtonomica/misc/dashboard-nav/quest.png">
 			<span class="n">Quests & Activities</span>
@@ -317,13 +321,25 @@ h3.popover-title {
 			<span class="t">Useful game equipment & Boosters</span>
 		</a>
 		
-			
-
 		<a href="https://virtonomics.com/mary/main/globalreport/marketing/by_trade_at_cities" class="item">
 			<img src="/i/app/virtonomica/misc/dashboard-nav/analytic.png">
 			<span class="n">Analytics</span>
 			<span class="t">Market analysis, Research, Macroeconomics</span>
 		</a>
+
+
+		<a href="https://virtonomics.com/mary/main/user/privat/persondata/knowledge" class="item">
+			<img src="/i/app/virtonomica/misc/dashboard-nav/manager.png">
+			<span class="n">Top-manager</span>
+			<span class="t">Profile, Skills, Awards, Office</span>
+		</a>
+
+
+
+
+
+			
+
 
 				<a href="https://virtonomics.com/mary/main/politics/news" class="item">
 			<img src="/i/app/virtonomica/misc/dashboard-nav/politic.png">
@@ -332,17 +348,12 @@ h3.popover-title {
 		</a>
 		
 		
-		<a href="https://virtonomics.com/mary/main/common/main_page/income/friends" class="item">
-			<img src="/i/app/virtonomica/misc/dashboard-nav/invite.png">
-			<span class="n">100 friends</span>
-			<span class="t">Invite friends and Make money</span>
-		</a>
+					<a href="https://virtonomics.com/mary/main/common/main_page/income/friends" class="item">
+				<img src="/i/app/virtonomica/misc/dashboard-nav/invite.png">
+				<span class="n">100 friends</span>
+				<span class="t">Invite friends and Make money</span>
+			</a>	
 		
-				<a href="/main/partnership/" class="item" target="_new">
-			<img src="/i/app/virtonomica/misc/dashboard-nav/affilate.png">
-			<span class="n">Affiliate program</span>
-			<span class="t">For webmasters and Bloggers</span>
-		</a>
 		
 		<!-- <a href="#" class="item">
 			<img src="/i/app/virtonomica/misc/dashboard-nav/vcoin.png">
@@ -430,17 +441,17 @@ $( document ).ready(function() {
 		</tr>
 		<tr>
 			<td><i class="fa fa-square" aria-hidden="true" style="color:#ff0000"></i> Expenses</td>
-			<td>$113&nbsp;203.89</td>
 			<td>$567&nbsp;451.25</td>
+			<td>$431&nbsp;769.01</td>
 			<td>
-			<i class='fa fa-arrow-up change-up' aria-hidden='true'></i>			</td>
+			<i class='fa fa-arrow-down change-down' aria-hidden='true'></i>			</td>
 		</tr>
 		<tr>
 			<td><i class="fa fa-square" aria-hidden="true" style="color:#27a8b3"></i> Profit</td>
-			<td>$-113&nbsp;203.89</td>
 			<td>$-567&nbsp;451.25</td>
+			<td>$-431&nbsp;769.01</td>
 			<td>
-			<i class='fa fa-arrow-down change-down' aria-hidden='true'></i>			</td>
+			<i class='fa fa-arrow-up change-up' aria-hidden='true'></i>			</td>
 		</tr>
 		<tr>
 			<td><i class="fa fa-square" aria-hidden="true" style="color:#ff00ae"></i> Taxes</td>
@@ -541,14 +552,14 @@ $(function()
 				tax:0				});
 					chartData.push({
 				turn:13, // заменить на даты
-				income:0, 
-				expense:0,
+				income:-3, 
+				expense:3,
 				revenue:0,
 				tax:0				});
 					chartData.push({
 				turn:14, // заменить на даты
-				income:-3, 
-				expense:3,
+				income:0, 
+				expense:0,
 				revenue:0,
 				tax:0				});
 					chartData.push({
@@ -589,15 +600,15 @@ $(function()
 				tax:0				});
 					chartData.push({
 				turn:21, // заменить на даты
-				income:0, 
-				expense:0,
-				revenue:0,
-				tax:0				});
-					chartData.push({
-				turn:22, // заменить на даты
 				income:4, 
 				expense:1,
 				revenue:6,
+				tax:0				});
+					chartData.push({
+				turn:22, // заменить на даты
+				income:0, 
+				expense:0,
+				revenue:0,
 				tax:0				});
 					chartData.push({
 				turn:23, // заменить на даты
@@ -745,14 +756,14 @@ $(function()
 				tax:0				});
 					chartData.push({
 				turn:47, // заменить на даты
-				income:0, 
-				expense:0,
+				income:-10, 
+				expense:10,
 				revenue:0,
 				tax:0				});
 					chartData.push({
 				turn:48, // заменить на даты
-				income:-10, 
-				expense:10,
+				income:0, 
+				expense:0,
 				revenue:0,
 				tax:0				});
 					chartData.push({
@@ -1122,7 +1133,7 @@ $(function()
 							<div class="fill fill1"></div>
 							<div class="fill fill2"></div>
 							<div class="text">
-								6.91%
+								7.38%
 								<span class="pull-right">0.50%</span>
 							</div>
 						</div>
@@ -1143,7 +1154,7 @@ $(function()
 							<div class="fill fill1"></div>
 							<div class="fill fill2"></div>
 							<div class="text">
-								47.03%
+								48.12%
 								<span class="pull-right">1.10%</span>
 							</div>
 						</div>
@@ -1235,7 +1246,7 @@ $(function()
 							<div class="fill fill1"></div>
 							<div class="fill fill2"></div>
 							<div class="text">
-								55.55%
+								56.56%
 								<span class="pull-right">1.00%</span>
 							</div>
 						</div>
@@ -1440,8 +1451,8 @@ $(function()
 							<div class="fill fill1"></div>
 							<div class="fill fill2"></div>
 							<div class="text">
-								20.53%
-								<span class="pull-right">1.50%</span>
+								21.98%
+								<span class="pull-right">1.40%</span>
 							</div>
 						</div>
 
@@ -1482,13 +1493,13 @@ $(function()
 <script>
 $( document ).ready(function()
 {
-			$('#knchart-423352 .fill1').width('54%');
-				$('#knchart-423352 .fill2').width('56%');
-					$('#knchart-2236 .fill1').width('19%');
-				$('#knchart-2236 .fill2').width('21%');
-					$('#knchart-2234 .fill1').width('46%');
-				$('#knchart-2234 .fill2').width('48%');
-					$('#knchart-2229 .fill1').width('6%');
+			$('#knchart-423352 .fill1').width('55%');
+				$('#knchart-423352 .fill2').width('57%');
+					$('#knchart-2236 .fill1').width('20%');
+				$('#knchart-2236 .fill2').width('22%');
+					$('#knchart-2234 .fill1').width('47%');
+				$('#knchart-2234 .fill2').width('49%');
+					$('#knchart-2229 .fill1').width('7%');
 					$('#knchart-2230 .fill1').width('35%');
 					$('#knchart-2232 .fill1').width('0%');
 					$('#knchart-2233 .fill1').width('57%');
@@ -1544,7 +1555,7 @@ $( document ).ready(function()
 <h3>Contacts:</h3>
 <p>Lukiškių g. 5, 01108 Vilnius, Lithuania</p></div>
       	         <div class="counters">
-	         <img src="/theme/Virta2016/i/visa_mastercard.png" alt="visa mastercard" title="visa mastercard" style="float: right; margin: 4px;">
+	         <img src="https://virtonomica.ru/theme/Virta2016/i/visa_mastercard.png" alt="visa mastercard" title="visa mastercard" style="float: right; margin: 4px;">
 			<div style="text-align:right; opacity:0.1;">
 				<div class="infoBlock" style="position:absolute;left:-2500px;top:-2500px;">
 
